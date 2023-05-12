@@ -6,8 +6,6 @@ import
   DragDropList
 from './components/DragDropList';
 
-import { useEffect, useState } from 'react';
-
 import data from "./be/dummy-be.json"
 
 
