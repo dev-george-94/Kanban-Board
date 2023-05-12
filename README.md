@@ -1,2 +1,1 @@
-# Kanban-Board
-Simple Kanban Board
+Mock Kanban Board

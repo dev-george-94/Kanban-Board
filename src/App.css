@@ -1,0 +1,29 @@
+.drag-drop-list {
+    display: flex;
+    gap:2rem;
+    background:green;
+}
+
+.drop-area > div {
+    min-height: 400px;
+    padding: 4px;
+    width:250px;
+    background-color: lightgray;
+}
+
+.drop-area > .drag-over {
+    background-color: cyan;
+}
+
+.drag-item > div {
+    user-select:none;
+    padding:16px;
+    margin:0 0 8px 0;
+    min-height:50px;
+    background-color: blue;
+    color:white;
+}
+
+.drag-item > .is-dragging {
+    background-color: red;
+}
